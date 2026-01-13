@@ -7,7 +7,7 @@ consumoKW=consumoKW-50;
 
 
     if (consumoKW<=200){
-    preciototal=+preciototal*0.10;
+    preciototal=+consumoKW*0.10;
     consumoKW=consumoKW-150;
     }
 
