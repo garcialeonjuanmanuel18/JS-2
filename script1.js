@@ -7,14 +7,14 @@ consumoKW=consumoKW-50;
 
 
     if (consumoKW<=200){
-    preciototal=+consumoKW*0.10;
-    consumoKW=consumoKW-150;
+    preciototal+=consumoKW*0.10;
     }
 
     else if (consumokW>200){
-    preciototal+=preciototal*0.10;
     consumoKW=consumoKW-150;
-    consumoKW=consumoKW*0.15;
+    preciototal+=150*0.10;
+    
+    preciototal+=consumoKW*0.15;
     }
     }
 else if (consumoKW<50){
