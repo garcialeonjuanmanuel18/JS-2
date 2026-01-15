@@ -10,7 +10,7 @@ consumoKW=consumoKW-50;
     preciototal+=consumoKW*0.10;
     }
 
-    else if (consumokW>200){
+    else if (consumoKW>200){
     consumoKW=consumoKW-150;
     preciototal+=150*0.10;
     
@@ -21,4 +21,4 @@ else if (consumoKW<50){
 preciototal+=2;
 }
 
-console.log("el precio total es: " +(preciototal) );
+alert("el precio total es: " +(preciototal) );
